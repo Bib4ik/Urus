@@ -332,9 +332,15 @@ body{
     }
 }
 
+@media (max-width: 1600px){
+    .contacts__box{
+        padding-left: 150px;
+    }
+}
+
 @media (max-width: 1200px){
     .title{
-        font-size: 280px;
+        font-size: 278px;
         padding-left: 0;
     }
 
@@ -373,12 +379,26 @@ body{
     }
 
     .gallery-box__item{
-        width: 49%;
+        width: 48%;
     }
 
     .gallery-box img{
         width: 100%;
         border-radius: 30px;
+    }
+
+    .contacts__box{
+        padding-left: 0;
+        padding-right: 0;
+        gap: 60px;
+    }
+
+    .contacts{
+        padding: 100px 0;
+    }
+
+    .footer{
+        padding-bottom: 50px;
     }
 }
 
@@ -396,6 +416,11 @@ body{
     }
 
     .price{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .price2{
         font-size: 32px;
         margin-bottom: 10px;
     }
@@ -431,12 +456,33 @@ body{
         margin-bottom: 5px;
         font-size: 18px;
     }
+
+    .contacts__box{
+        display: block;
+    }
+
+    .contacts__text-rules{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .form__order{
+        width: auto;
+    }
 }
 
 @media (max-width: 670px){
     .info__content{
         display: block;
         text-align: center;
+    }
+
+    .color__text{
+        font-size: 38px;
+    }
+
+    .gallery-box__item{
+        width: 100%;
     }
 }
 
@@ -456,5 +502,40 @@ body{
     .info__title{
         font-size: 44px;
         line-height: 1;
+    }
+}
+
+@media (max-width: 530px){
+    .contacts__title{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .contacts{
+        padding: 50px 0;
+    }
+
+    .contacts__headtext{
+        font-size: 18px;
+    }
+
+    .contacts__text{
+        font-size: 18px;
+    }
+
+    .form__input{
+        font-size: 18px;
+    }
+
+    .form__input::placeholder{
+        font-size: 18px;
+    }
+
+    .order{
+        font-size: 18px;
+    }
+
+    .form__order{
+        width: 100%;
     }
 }
